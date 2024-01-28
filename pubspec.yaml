@@ -1,0 +1,28 @@
+name: teacher_bluetooth
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  #  flutter_reactive_ble: ^5.3.0
+  rxdart: ^0.27.7
+  permission_handler: ^11.2.0
+  bluetooth_identifiers: ^1.1.1
+  flutter_blue_plus: ^1.31.12
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
